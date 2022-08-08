@@ -12,7 +12,7 @@ def toJson():
    
     #Write .json model file
     json = '{"parent": "item/generated","textures": {"layer0": "tkcya:items/metaitems/' + name + '"}}'
-    with open('output/metaitems/' + name + '.json', 'w') as model:
+    with open('output/gregtech/models/item/metaitems/' + name + '.json', 'w') as model:
         model.write(json)
 
 
