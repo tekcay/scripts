@@ -1,0 +1,20 @@
+        Name1 = new Material.Builder(id1, "name1")
+                .fluid(FluidTypes.GAS, true)
+                .color(0xebf0ef)
+                .build();
+
+        Name2 = new Material.Builder(id2, "name2")
+                .fluid(FluidTypes.LIQUID, true)
+                .fluidTemp(298)
+                .color(0xebf0ef)
+                .build();
+
+        Name3 = new Material.Builder(id3, "name3")
+                .fluid(FluidTypes.GAS, true)
+                .color(0xebf0ef)
+                .build();
+                
+        Name4 = new Material.Builder(id4, "name4")
+                .fluid(FluidTypes.LIQUID, true)
+                .color(0xebf0ef)
+                .build();" 
